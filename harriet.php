@@ -41,9 +41,15 @@ var familyGroupTag = {
 				},
 			},
             nodes: [
+<<<<<<< HEAD
                 { id: 1, tags: ["Parents"],name: "<a href='harrietbio.php'>Harriet Liyanage</a>", img0:"harriet.jpg" },
                 { id: 2, tags: ["Parents"],name:"<a href='sarathbio.php'>Sarath Hewapathirane</a>", img0:"sarath.jpg"},
                 { id: 3, tags:["hide"],pid: 1, name: "<a href='arunabio.php'>Aruna</a>", img0: "aruna.png" }                
+=======
+                { id: 1, tags: ["Parents"],name: "Harriet Liyanage", img0:"harriet.jpg" },
+                { id: 2, tags: ["Parents"],name:"Sarath Hewapathirane", img0:"sarath.jpg"},
+                { id: 3, tags:["hide"],pid: 1, name: "Aruna", img0: "aruna.png" }                
+>>>>>>> master
                 
             ]
         });
