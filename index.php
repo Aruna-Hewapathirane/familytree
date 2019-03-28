@@ -40,7 +40,7 @@
 
 #header{
 	background: url("floral.jpg");
-	/*background-color:#039be5;*/
+	background-color:#039be5;
 	}
 
 </style>
