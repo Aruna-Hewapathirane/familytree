@@ -4,3 +4,23 @@
 [07-Mar-2019 15:50:20 UTC] PHP Warning:  include(carousel.html): failed to open stream: No such file or directory in /home2/c257053/public_html/plamen/index.php on line 38
 [07-Mar-2019 15:50:20 UTC] PHP Warning:  include(carousel.html): failed to open stream: No such file or directory in /home2/c257053/public_html/plamen/index.php on line 38
 [07-Mar-2019 15:50:20 UTC] PHP Warning:  include(): Failed opening 'carousel.html' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home2/c257053/public_html/plamen/index.php on line 38
+[29-Mar-2019 01:51:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:51:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:51:29 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:53:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:53:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:54:49 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:54:57 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:55:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:55:42 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:58:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 01:58:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 02:04:42 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 02:04:52 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 02:05:03 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 02:05:16 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 02:36:01 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 02:36:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 11:09:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 11:09:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
+[29-Mar-2019 11:09:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/c257053/public_html/plamen/config.php on line 25
