@@ -45,7 +45,7 @@ var familyGroupTag = {
                 { id: 1, tags: ["Parents"],name: "Thegis Apuhami Wife", img0:"noimage.jpg" },
                 { id: 2, tags: ["Parents"],name:"Thegis Apuhami", img0:"noimage.jpg"},
                 { id: 3, tags:["hide"],pid: 1, name: "James Liyanage", img0: "noimage.jpg" },
-                { id: 4, tags:["hide"],pid: 1, name: "Thomas Liyanage", img0: "noimage.jpg" },
+                { id: 4, tags:["hide"],pid: 1, name: "<a href='thomas.php'>Thomas Liyanage</a>", img0: "thomas.jpg" },
                 { id: 5, tags:["hide"],pid: 1, name: "Ruben Liyanage", img0: "noimage.jpg" },
                 { id: 6, tags:["hide"],pid: 1, name: "May Nona", img0: "noimage.jpg" },            ]
         });

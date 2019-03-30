@@ -42,11 +42,8 @@ var familyGroupTag = {
 				},
 			},
             nodes: [
-<<<<<<< HEAD
+
                 { id: 1, tags: ["Parents"],name: "<a href='thomasbio.php'>Thomas Liyanage</a>", img0:"thomas.jpg" },
-=======
-                { id: 1, tags: ["Parents"],name: "Thomas Liyanage", img0:"thomas.jpg" },
->>>>>>> master
                 { id: 2, tags: ["Parents"],name:"Emala Liyanage", img0:"Emala.jpg"},
                 { id: 3, tags:["hide"],pid: 1, name: "Harriet Sunethra", img0: "harriet.jpg" },
                 { id: 4, tags:["hide"],pid: 1, name: "Doreen",img0: "doreen.jpg"  },

@@ -69,7 +69,7 @@ window.onload = function () {
         nodes: [
             //{ id: 1, tags: ["Parents"], name: "Doreen Sriyalatha", title: "CEO", img: "doreen.jpg" },
             //{ id: 2, tags: ["Parents"], name: "Ariyapala Gunartna", title: "Director", img: "ariyapala.png" },
-            { id: 1, tags: ["Parents"], name: "Doreen Sriyalatha",  img: "doreen.jpg" },
+            { id: 1, tags: ["Parents"], name: "<a href='doreenbio.php'>Doreen Sriyalatha</a>",  img: "doreen.jpg" },
 			{ id: 2, tags: ["Parents"], name: "Ariyapala Gunartna", img: "ariyapala.png" },
             
             { id: 5, pid: 1, tags: ["Devs"], name: "Ruwan", /* title: "JS Developer", */ img: "ruwan.jpg" },
