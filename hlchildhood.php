@@ -63,7 +63,7 @@
 <?php include('nav.html'); ?>
 
 </br>
-<p style="text-align:center;font-size:36px;font-family:Great Vibes">Harriet Childhood</p>
+<p style="text-align:center;font-size:26px;font-family:Great Vibes;text-shadow:1px 1px 4px black">Harriet Sunethra Liyanage Childhood</p>
 <div class="picture-frame">
 	<div class="matte">
 		<img class="art" src="http://liyanage.family/wp-content/uploads/2015/03/IMG_13801.jpg">
