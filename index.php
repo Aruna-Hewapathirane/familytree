@@ -22,8 +22,13 @@
   
   <script>
   $(document).ready(function(){
+<<<<<<< HEAD
       $("#card").hide().fadeIn(2500);
       $('#henry').hide().delay(4000).slideDown(2000);
+=======
+      $("#card").hide().fadeIn(12500);
+     // $('#henry').hide().delay(4000).slideDown(2000);
+>>>>>>> develop
   });
   
   </script>

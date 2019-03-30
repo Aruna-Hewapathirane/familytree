@@ -32,12 +32,13 @@ var familyGroupTag = {
 	   
             nodeBinding: {
                 field_0: "name",                
+                field_1: "title",
                 img_0: "img0"                
             },
             
              
             nodes: [
-                { id: 1, name: "Edward Liyanage", img0:"edward.jpg" },                         
+                { id: 1, name: "Edward Liyanage", title:"Deceased", img0:"edward.jpg" },                         
             ]
         });
 

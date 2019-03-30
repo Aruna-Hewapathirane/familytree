@@ -44,14 +44,12 @@ var chart = new OrgChart(document.getElementById("tree"), {
                 img_0: "img"
             },
             nodes: [
-                { id: 1, name: "Harriet Liyanage", title: "Eldest", img: "harriet.jpg" },
-<<<<<<< HEAD
-                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='#'>Childhood</a>", img: "hlchildhood.jpg"},
-=======
-                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='hlchildhood.php#'>Childhood</a>", img: "hlchildhood.jpg"},
->>>>>>> develop
-                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='#'>Education</a>", img: "Anula-Vidyalaya.jpg" },
-                { id: 4, pid: 1,  tags: ["hide"], name: "<a href='#'>My 20-30's</a>", img: "hl2030.jpg" },
+                { id: 1, name: "Doreen Sriyalatha", title: "2nd Born", img: "doreen.jpg" },
+                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='#'>Babyhood</a>", img: "dlbabyhood.jpg"},
+                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='#'>Childhood</a>", img: "dlchildhood.jpg"},
+                { id: 4, pid: 1,  tags: ["hide"], name: "<a href='#'>Education</a>", img: "Anula-Vidyalaya.jpg" },
+                { id: 5, pid: 1,  tags: ["hide"], name: "<a href='#'>My Wedding</a>", img: "dlwedding.jpg" },
+                { id: 6, pid: 1,  tags: ["hide"], name: "<a href='#'>My Kids</a>", img: "dlkids.jpg"},
                 
             ]
         });    
