@@ -28,6 +28,16 @@
   
 <script>
 
+function alertNoImage(obj){
+	
+    var section = $(obj).text();    
+	var str1="Hi Jacque, we need pictures of Doreen for: ";
+	var res = str1.concat(section);
+	
+	alert(res);
+	}
+
+
 var chart = new OrgChart(document.getElementById("tree"), {
             template: "ana",
             enableSearch: false,
@@ -45,11 +55,11 @@ var chart = new OrgChart(document.getElementById("tree"), {
             },
             nodes: [
                 { id: 1, name: "Doreen Sriyalatha", title: "2nd Born", img: "doreen.jpg" },
-                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='#'>Babyhood</a>", img: "dlbabyhood.jpg"},
-                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='#'>Childhood</a>", img: "dlchildhood.jpg"},
-                { id: 4, pid: 1,  tags: ["hide"], name: "<a href='#'>Education</a>", img: "Anula-Vidyalaya.jpg" },
-                { id: 5, pid: 1,  tags: ["hide"], name: "<a href='#'>My Wedding</a>", img: "dlwedding.jpg" },
-                { id: 6, pid: 1,  tags: ["hide"], name: "<a href='#'>My Kids</a>", img: "dlkids.jpg"},
+                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='#' onclick='alertNoImage(this)'; >Babyhood</a>", img: "dlbabyhood.jpg"},
+                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='dlchildhood.php'>Childhood</a>", img: "dlchildhood.jpg"},
+                { id: 4, pid: 1,  tags: ["hide"], name: "<a href='#' onclick='alertNoImage(this)';>Education</a>", img: "Anula-Vidyalaya.jpg" },
+                { id: 5, pid: 1,  tags: ["hide"], name: "<a href='dlwedding.php'>My Wedding</a>", img: "dlwedding.jpg" },
+                { id: 6, pid: 1,  tags: ["hide"], name: "<a href='dlkids.php'>My Kids</a>", img: "dlkids.jpg"},
                 
             ]
         });    
@@ -58,3 +68,8 @@ var chart = new OrgChart(document.getElementById("tree"), {
 </body>
 
 </html>
+<script>
+	
+</script>
+
+
