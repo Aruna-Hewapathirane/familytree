@@ -55,8 +55,8 @@ var chart = new OrgChart(document.getElementById("tree"), {
             },
             nodes: [
                 { id: 1, name: "Edward Liyanage", title: "3rd Born (Deceased)", img: "edward.jpg" },
-                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='elbabyhood.php' >Babyhood</a>", img: "elbabyhood.jpg"},
-                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='elchildhood.php'>Childhood</a>", img: "elchildhood1.jpg"}               
+                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='elbabyhood.php' onclick='section(this);' >Babyhood</a>", img: "elbabyhood.jpg"},
+                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='elchildhood.php' onclick='section(this);' >Childhood</a>", img: "elchildhood1.jpg"}               
                 
             ]
         });    

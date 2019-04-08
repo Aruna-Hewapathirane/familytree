@@ -22,13 +22,8 @@
   
   <script>
   $(document).ready(function(){
-<<<<<<< HEAD
       $("#card").hide().fadeIn(2500);
       $('#henry').hide().delay(4000).slideDown(2000);
-=======
-      $("#card").hide().fadeIn(12500);
-     // $('#henry').hide().delay(4000).slideDown(2000);
->>>>>>> develop
   });
   
   </script>
@@ -54,7 +49,7 @@
 </br>
 
   <div id="card" class="card" style="margin-left: 15px;margin-right: 15px;">	  
-	  	<div class="card-header" id="header"></div></br></br></br>
+	  	<!--<div class="card-header" id="header"></div>--></br></br></br>
 		
 		<img id="henry" class="card-img-top center" src="henrymama.png" alt="Card image" style="height:200px;width:200px;border-radius:50%;text-align:center;top:10px;position:relative;">
 		<div class="card-body">      

@@ -1,3 +1,5 @@
+<?php include('config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,7 @@
 
 <?php include('nav.html'); ?>
 
-<div style="width:100%; height:700px;" id="tree"/>
+<div style="width:100%; height:700px;" id="tree"></div>
 <script>
 	 
 var familyGroupTag = {
@@ -42,10 +44,7 @@ var familyGroupTag = {
 				},
 			},
             nodes: [
-<<<<<<< HEAD
-=======
 
->>>>>>> develop
                 { id: 1, tags: ["Parents"],name: "<a href='thomasbio.php'>Thomas Liyanage</a>", img0:"thomas.jpg" },
                 { id: 2, tags: ["Parents"],name:"Emala Liyanage", img0:"Emala.jpg"},
                 { id: 3, tags:["hide"],pid: 1, name: "Harriet Sunethra", img0: "harriet.jpg" },

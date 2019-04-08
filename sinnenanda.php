@@ -1,3 +1,5 @@
+<?php include('config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,7 @@
 
 <?php include('nav.html'); ?>
 
-<div style="width:100%; height:700px;" id="tree"/>
+<div style="width:100%; height:700px;" id="tree"></div>
 <script>
 	 
 var familyGroupTag = {

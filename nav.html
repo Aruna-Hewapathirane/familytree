@@ -2,65 +2,79 @@
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
 <nav class="navbar navbar-expand-sm navbar-dark text-black" style="background-color:#039be5">
   <!-- Brand -->
-  <a class="navbar-brand" href="index.php" style="font-family:Great Vibes;font-size:35px;text-shadow:1px 1px 7px black;">Liyanage</a>
+  <a class="navbar-brand" href="index.php" onclick="section(this);" style="font-family:Great Vibes;font-size:35px;text-shadow:1px 1px 7px black;">Liyanage</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">1800-1900</a>    
     <div class="dropdown-menu">
-        <a class="dropdown-item" href="thegis.php">Thegis Appuhami ( Great Grand Father)</a>
-        <a class="dropdown-item" href="dolly.php">Kahandawela Aarachchige Dolly perera</a>
-        <a class="dropdown-item" href="sinnenanda.php">Harriet (Sinne Nanda)</a>
+        <a class="dropdown-item" href="thegis.php"  onclick="section(this);">Thegis Appuhami ( Great Grand Father)</a>
+        <a class="dropdown-item" href="dolly.php"  onclick="section(this);">Kahandawela Aarachchige Dolly perera</a>
+        <a class="dropdown-item" href="sinnenanda.php"  onclick="section(this);">Harriet (Sinne Nanda)</a>
     </div>    
 	</li>
     
     <!-- Dropdown -->
-
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">1900-2000</a>
 
-
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="thomas.php">Thomas Liyanage ( Senior)</a>
-        <a class="dropdown-item" href="emala.php">Emala Liyange </a>
-        <a class="dropdown-item" href="harriet.php">Harriet Sunethra</a>
-        <a class="dropdown-item" href="doreen.php">Doreen Sryalatha</a>
-        <a class="dropdown-item" href="edward.php">Edward Siripala</a>
-        <a class="dropdown-item" href="george.php">George Wijesiri</a>
-        <a class="dropdown-item" href="henry.php">Henry Nayanananda</a>
-        <a class="dropdown-item" href="herbert.php">Herbet Chandrasiri</a>
-        <a class="dropdown-item" href="beatrice.php">Beatrice Swarnalatha</a>
-        <a class="dropdown-item" href="primrose.php">Primrose Sunanda</a>
-        <a class="dropdown-item" href="celia.php">Celia Sujatha</a>
-        <a class="dropdown-item" href="harold.php">Harrold Sarathchandra</a>
-        <a class="dropdown-item" href="elaine.php">Elaine</a>
+        <a class="dropdown-item" href="thomas.php"  onclick="section(this);">Thomas Liyanage ( Senior)</a>
+        <a class="dropdown-item" href="emala.php"  onclick="section(this);">Emala Liyange </a>
+        <a class="dropdown-item" href="harriet.php"  onclick="section(this);">Harriet Sunethra</a>
+        <a class="dropdown-item" href="doreen.php"  onclick="section(this);">Doreen Sryalatha</a>
+        <a class="dropdown-item" href="edward.php"  onclick="section(this);">Edward Siripala</a>
+        <a class="dropdown-item" href="george.php"  onclick="section(this);">George Wijesiri</a>
+        <a class="dropdown-item" href="henry.php"  onclick="section(this);">Henry Nayanananda</a>
+        <a class="dropdown-item" href="herbert.php"  onclick="section(this);">Herbet Chandrasiri</a>
+        <a class="dropdown-item" href="beatrice.php"  onclick="section(this);">Beatrice Swarnalatha</a>
+        <a class="dropdown-item" href="primrose.php"  onclick="section(this);">Primrose Sunanda</a>
+        <a class="dropdown-item" href="celia.php"  onclick="section(this);">Celia Sujatha</a>
+        <a class="dropdown-item" href="harold.php"  onclick="section(this);">Harrold Sarathchandra</a>
+        <a class="dropdown-item" href="elaine.php"  onclick="section(this);">Elaine</a>
       </div>
     </li>
     
     
     <li class="nav-item">
-      <a class="nav-link" href="gallery.php">Gallery</a>
+      <a class="nav-link" href="gallery.php" onclick="section(this);">Gallery</a>
     </li>
 
+    <!-- Dropdown -->    
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Business Transport</a>      
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="transport1800-1900.php">Transport 1800-1900</a>
-        <a class="dropdown-item" href="transport1900-2000.php">Transport 1900-2000</a>
-        <a class="dropdown-item" href="#">Transport 20000</a>
+        <a class="dropdown-item" href="transport1800-1900.php" onclick="section(this);">Transport 1800-1900</a>
+        <a class="dropdown-item" href="transport1900-2000.php" onclick="section(this);">Transport 1900-2000</a>
+        <a class="dropdown-item" href="#" onclick="section(this);">Transport 20000</a>
       </div>
-
     </li>
 
+    <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">History & Timeline</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Ceylon 1800-1900</a>
-        <a class="dropdown-item" href="#">Ceylon 1900-1972</a>
-        <a class="dropdown-item" href="#">Sri Lanka 1972-2000+</a>
+        <a class="dropdown-item" href="#" onclick="section(this);">Ceylon 1800-1900</a>
+        <a class="dropdown-item" href="#" onclick="section(this);">Ceylon 1900-1972</a>
+        <a class="dropdown-item" href="#" onclick="section(this);">Sri Lanka 1972-2000+</a>
       </div>
     
   </ul>
 </nav>
 
+<script>
+
+function section(obj){
+	
+    var name = $(obj).text();      		
+    document.cookie = 'name='+name;			
+        
+    var section = obj.getAttribute("href");
+	document.cookie = 'section='+section;			
+	
+	//alert(name);
+	//alert(section); //uncomment for debugging
+}
+
+</script>
