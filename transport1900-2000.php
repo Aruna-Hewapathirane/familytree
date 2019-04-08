@@ -24,14 +24,15 @@
 
 <div class="card" style="margin-top:10px;margin-left:15px;margin-right:15px;">
     <div class="card-body">
-      <h4 class="card-title">Travel in the 1800s was...</h4>
-      <p class="card-text">My grandfather used covered wagons, horses and buggies. They would walk. If they were near water, they could take a boat or ride on a train. Our family business was transport.
-						   Why?</br>
-							Add images of the bullock carts.</br></br>
-							Roads in Colombo and Ceylon in the 1800’s</br></br>
-							The types of things that my grandfather used to transport.</br></br>
-							Our business in the 1800’s.</br></br>
-							Image of Sri Lanka – perhaps an old map if we can get it of Colombo at that time</p>
+      <h4 class="card-title">Transport in the 1900 -2000</h4>
+      <p class="card-text">What life was like</br>
+New technology</br>
+Roads in the 1900’s</br>
+Our transport business</br>
+My father Thomas Liyanage’s vision</br>
+His trials and tribulations with the business</br>
+The government at the time and it’s impacts</br>
+The British in Sri Lanka</p>
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
     <img class="card-img-bottom" src="transport.jpg" alt="Card image" style="width:100%">

@@ -42,7 +42,7 @@ var familyGroupTag = {
 			},
             nodes: [
                 { id: 1, tags: ["Parents"],name: "Kalyanie", img0:"kalyani.jpg" },
-                { id: 2, tags: ["Parents"],name:"George", img0:"george.jpg"},
+                { id: 2, tags: ["Parents"],name:"<a href='georgebio.php' >George</a>", img0:"george.jpg"},
                 { id: 3, tags:["hide"],pid: 1, name: "Roshan", img0: "noimage.jpg" },
                 { id: 4, tags:["hide"],pid: 1, name: "Sajith", img0: "noimage.jpg" }                
                 

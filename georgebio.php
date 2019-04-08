@@ -15,17 +15,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   
   <script src="orgchart.js"></script>
-    
-  
 </head>
 
-</style>
 <body>
 
 <?php include('nav.html'); ?>
-</br>
 
-<div id="tree"></div></br></br>
+
+<div id="tree"></div>
+<div class="container"></div>  
+
   
 <script>
 
@@ -45,16 +44,13 @@ var chart = new OrgChart(document.getElementById("tree"), {
                 img_0: "img"
             },
             nodes: [
-                { id: 1, name: "Henry Liyanage", title: "CEO", img: "henry1.jpg" },
-                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='henrychildhood.php' onclick='section(this);'>Childhood</a>", img: "henry2.jpg"},
-                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='henryeducation.php' onclick='section(this);'>Education</a>", img: "st.png" },
-                { id: 4, pid: 1,  tags: ["hide"], name: "<a href='henrycareer.php' onclick='section(this);'>Career & Work</a>", img: "liyanage-transport-truck.png" },
-                { id: 5, pid: 1,  tags: ["hide"], name: "<a href='henrywedding.php' onclick='section(this);'>My Wedding</a>", img: "Henry-and-Srima.jpg" },
-                { id: 6, pid: 1,  tags: ["hide"], name: "<a href='henry60.php' onclick='section(this);'>60 Plus</a>", img: "sixtyplus.jpg" },
-                { id: 7, pid: 1,  tags: ["hide"], name: "<a href='henryhobbies.php' onclick='section(this);'>Hobbies & Interests</a>", img: "henry-on-bike1.jpg" },
+                { id: 1, name: "George Liyanage", title: "4th Born", img: "george.jpg" },
+                { id: 2, pid: 1,  tags: ["hide"], name: "<a href='glchildhood.php#'>Childhood</a>", img: "elchildhood2.jpg"},
+                { id: 3, pid: 1,  tags: ["hide"], name: "<a href='glwork.php'>Career & Work</a>", img: "george1.jpg" },
+                { id: 4, pid: 1,  tags: ["hide"], name: "<a href='gl4060.php'>My 40-60's</a>", img: "george2.jpg" },
+                
             ]
         });    
-
 </script>
  
 </body>
